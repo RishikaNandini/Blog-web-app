@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+
+    <div class="form-container">
+        <h1>Compose</h1>
+        <form action="/compose" method="POST">
+            <label for="title">Title</label>
+            <input required id="title" name="titleBody" autocomplete="off" type="text" />
+
+            <!-- later in app.js, we gonna use "titlebody"
+             and "addPost" with bodyParser -->
+
+            <label for="post">Post</label>
+            <textarea name="addPost" id="post" cols="30" rows="10"></textarea>
+            <button name="button" tyoe="submit">Publish</button>
+        </form>
+    </div>
+    <%- include('partials/footer') %>

@@ -1,0 +1,37 @@
+.footer-padding {
+    margin-top: 500px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #FAFFAF;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    max-width: 800px;
+    padding: 3em;
+    margin: auto;
+}
+
+.form-container input,
+.form-container textarea {
+    padding: 0.3em;
+    margin-bottom: 1em;
+}
+
+.form-container button {
+    background-color: khaki;
+    color: var(--white);
+    border: none;
+    padding: 0.3em;
+    max-width: 80px;
+    border-radius: 0.3em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
